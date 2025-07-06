@@ -65,6 +65,7 @@ return neighbors;
   }
 }
 ```
+
 همانطور که مشخص است، تنها جایی که تغییر نیاز پیدا می‌کند، کلاس GraphAdapter است. نسخه جدید این کلاس از JGraphT استفاده می‌کند و همه عملکردهای لازم را در اختیار می‌گذارد. این رویکرد دقیقا هدف الگوی Adapter را محقق می‌کند.
 
 ### زیربخش ۲
@@ -92,6 +93,7 @@ return neighbors;
 public interface Traverser {
   List<Integer> traverse(Integer startVertex);
 }
+```
 
 ### توضیحات تکمیلی درباره مزایای Strategy
 
@@ -133,6 +135,7 @@ path.add(i);
 return path;
   }
 }
+```
 
 // و در نهایت برای استفاده از آن داریم :
 ```java
