@@ -137,7 +137,7 @@ return path;
 }
 ```
 
-// و در نهایت برای استفاده از آن داریم :
+و در نهایت برای استفاده از آن داریم :
 ```java
 Traverser newGraphTraverser = new NewGraphTraverser(graph);
 List<Integer> newPath = newGraphTraverser.traverse(1);
