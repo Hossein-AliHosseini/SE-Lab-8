@@ -123,7 +123,6 @@ this.graph = graph;
 
   @Override
   public List<Integer> traverse(Integer startVertex) {
-الگوریتم نمونه فقط برای مثال
 List<Integer> path = new ArrayList<>();
 path.add(startVertex);
 
